@@ -7,14 +7,87 @@
 </head>
 <body>
     <form action="">
-    required
+    
         <label  for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <br>
+        <input type="text" id="name" name="name" value="write your name">
         <br>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
         <br>
+        <input type="email" id="email" name="email" value="example@gmail.com">
+        
+        <br>
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" 
+        name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="education">Education:</label>
+        <br>
+        <select id="education" name="education">
+            <option value="highschool">High School</option>
+            <option value="bachelor">Bachelor's Degree</option>
+            <option value="master">Master's Degree</option>
+        </select>
+        <br>
+        <label for="hobby">hobby:</label>
+        <br>
+        <input type="checkbox" id="hobby1" name="hobby" value="reading">
+        <label for="hobby1">Reading</label>
+        <input type="checkbox" id="hobby2" name="hobby" value="swimming">
+        <label for="hobby2">Swimming</label>
+        <input type="checkbox" id="hobby3" name="hobby" value="traveling">
+        <label for="hobby3">Traveling</label>
+        <input type="checkbox" id="Cricket" name="hobby" value="cricket">
+        <label for="Cricket">Cricket</label>
+        <input type="checkbox" id="Garding" name="hobby" value="gardening">
+        <label for="Garding">Gardening</label>
+        <br>
+        <label for="Message">Something else:</label>
+        <br>
+        <input type="text" id="Message" name="Message">
+        <br>
+        <label for="Country">Country:</label>
+        <select name="Country" id="country"size="3">
+            <br>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="india">India</option>
+        </select>
+        <br>
+        <label for="brand">Brand name</label>
+       <select name="brand" id="Brand">
+        <optgroup label="Electronics">
+            <option value="samsung">Samsung</option>
+            <option value="apple">Apple</option>
+            <option value="iphone">Iphone</option>
+        </optgroup>
+        <optgroup label="Clothing">
+            <option value="nike">Nike</option>
+            <option value="adidas">Adidas</option>
+        </optgroup>
+       </select>
+        <br>
+        <label for="cars">cars</label>
+        <input list="carlist" id="cars" name="carlist">
+        <datalist id="carlist">
+            <option value="Toyota">
+            <option value="Honda">
+            <option value="Ford">
+        </datalist>
+        <br>
+        <label  for="file">file</label>
+        <input type="file">
+        <br>
+
         <input type="submit" value="Submit">
+    
     </form>
+    <a href="index.html">main page</a>
 </body>
 </html>
