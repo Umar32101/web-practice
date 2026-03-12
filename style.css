@@ -1,3 +1,31 @@
 .body{
     align-items: "center";
+    
+
+}
+h1{
+    color: red;
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    text-decoration: line-through greenyellow;
+}
+h2{
+    color: blue;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline burlywood;
+    font-style: oblique;
+}
+ul{
+    color: green;
+    text-align: left;
+    font-size: 20px;
+    list-style-type: square;
 }
